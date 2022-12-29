@@ -1,5 +1,5 @@
 import CoverImage from '../images/cover-image.jpg';
-import ProfileImage from '../images/profile-image.png';
+import ProfileImage from '../images/profile-image.jpg';
 import { FaTwitter, FaFacebook, FaGithub } from 'react-icons/fa';
 
 export const Header = () => {
@@ -18,19 +18,19 @@ export const Header = () => {
             <ul className="social-icons">
               <li className="icon-link">
                 {/* リンク先(href)は任意のURLを設定してください */}
-                <a href="https://twitter.com/">
+                <a href="https://twitter.com/rykiel_727" target="_blank" rel="noreferrer">
                   <FaTwitter color="Black" size="2rem" />
                 </a>
               </li>
-							<li className="icon-link">
+              <li className="icon-link">
                 {/* リンク先(href)は任意のURLを設定してください */}
-                <a href="https://facebook.com/">
+                <a href="https://www.facebook.com/rykiel727" target="_blank" rel="noreferrer">
                   <FaFacebook color="Black" size="2rem" />
                 </a>
               </li>
               <li className="icon-link">
                 {/* リンク先(href)は任意のURLを設定してください */}
-                <a href="https://github.com/">
+                <a href="https://github.com/rykiel727/" target="_blank" rel="noreferrer">
                   <FaGithub color="Black" size="2rem" />
                 </a>
               </li>
